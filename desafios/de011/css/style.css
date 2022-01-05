@@ -33,7 +33,7 @@ header {
 
 header > h1 {
     font-family: var(--fonte-titulo);
-    font-size: 18vh;
+    font-size: 16vh;
     font-weight: bold;
     color: var(--cor1);
     text-align: center;
@@ -81,7 +81,7 @@ footer a:hover {
 }
 
 main article {
-    font-size: 8vh;
+    font-size: 4vh;
 }
 
 article p:first-child {
@@ -92,8 +92,10 @@ article p:last-child {
     padding-bottom: 100px;
 }
 
-article p {
+article > p {
     padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.503);
+    display: inline-block;
 }
 
 article div#d1 {
@@ -105,17 +107,8 @@ article div#d2 {
 }
 
 article div.parallax {
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 400px;
 
-}
-
-div.b-bg {
-    background-color: rgba(0, 0, 0, 0.381);
-    width: 100vh;
 }
 
 div.b-bg p {
